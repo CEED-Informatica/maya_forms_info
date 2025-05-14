@@ -6,48 +6,46 @@
   "studies":
     [
       {
-        "CICLOS": {
-          "GENERAL_INFO": {
-            "name": "Ciclos Formativos",
-            "abbr": "FP",
-            "help": "Documentación Ciclos Formativos",
-            "color": "#dc2626"
+        "GENERAL_INFO": {
+          "name": "Ciclos Formativos",
+          "abbr": "FP",
+          "help": "Documentación Ciclos Formativos",
+          "color": "#dc2626"
+        },
+        "TYPES": [
+          {
+            "abbr": "DAM",
+            "name": "Desarrollo de Aplicaciones Multiplataforma",
+            "level": "Superior",
+            "family": "Informática y comunicaciones"
           },
-          "TYPES": [
-            {
-              "abbr": "DAM",
-              "name": "Desarrollo de Aplicaciones Multiplataforma",
-              "level": "Superior",
-              "family": "Informática y comunicaciones"
-            },
-            {
-              "abbr": "DAW",
-              "name": "Desarrollo de Aplicaciones Web",
-              "level": "Superior",
-              "family": "Informática y comunicaciones"
-            },
-            {
-              "abbr": "ASIR",
-              "name": "Administración de Sistemas Informáticos",
-              "level": "Superior",
-              "family": "Informática y comunicaciones"
-            }
-          ],
-          "STUDY_VALIDATION": {
-            "description": "Convalidaciones por estudios",
-            "url_help": "url_help",
-            "init_date": "2024-09-20",
-            "end_date": "2024-10-20",
-            "delivery": {
-              "DAM": "url_DAM",
-              "DAW": "url_DAW"
-            },
-            "claim": {
-              "DAM": "url_DAM",
-              "DAW": "url_DAW"
-            }
-          } 
-        }
+          {
+            "abbr": "DAW",
+            "name": "Desarrollo de Aplicaciones Web",
+            "level": "Superior",
+            "family": "Informática y comunicaciones"
+          },
+          {
+            "abbr": "ASIR",
+            "name": "Administración de Sistemas Informáticos",
+            "level": "Superior",
+            "family": "Informática y comunicaciones"
+          }
+        ],
+        "STUDY_VALIDATION": {
+          "description": "Convalidaciones por estudios",
+          "url_help": "url_help",
+          "init_date": "2024-09-20",
+          "end_date": "2024-10-20",
+          "delivery": {
+            "DAM": "url_DAM",
+            "DAW": "url_DAW"
+          },
+          "claim": {
+            "DAM": "url_DAM",
+            "DAW": "url_DAW"
+          }
+        } 
       }
     ]
 
