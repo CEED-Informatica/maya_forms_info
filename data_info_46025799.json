@@ -1,13 +1,39 @@
 {
-  "version": "2425-2250428-01",
-  "centro": "CEEDCV",
-  "codigo": "46025799",
+  "version": "2425-250428-01",
+  "centre": "CEEDCV",
+  "code": "46025799",
   "author": "a.oltraorengo@edu.gva.es",
   "studies":
     [
       {
         "CICLOS": {
-         "STUDY_VALIDATION": {
+          "GENERAL_INFO": {
+            "name": "Ciclos Formativos",
+            "abbr": "FP",
+            "help": "Documentación Ciclos Formativos",
+            "color": "#dc2626"
+          },
+          "TYPES": [
+            {
+              "abbr": "DAM",
+              "name": "Desarrollo de Aplicaciones Multiplataforma",
+              "level": "Superior",
+              "family": "Informática y comunicaciones"
+            },
+            {
+              "abbr": "DAW",
+              "name": "Desarrollo de Aplicaciones Web",
+              "level": "Superior",
+              "family": "Informática y comunicaciones"
+            },
+            {
+              "abbr": "ASIR",
+              "name": "Administración de Sistemas Informáticos",
+              "level": "Superior",
+              "family": "Informática y comunicaciones"
+            }
+          ],
+          "STUDY_VALIDATION": {
             "description": "Convalidaciones por estudios",
             "url_help": "url_help",
             "init_date": "2024-09-20",
@@ -21,7 +47,8 @@
               "DAW": "url_DAW"
             }
           } 
-      }}
+        }
+      }
     ]
 
 
