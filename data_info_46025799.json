@@ -10,7 +10,8 @@
           "name": "Ciclos Formativos",
           "abbr": "FP",
           "help": "Documentación Ciclos Formativos",
-          "color": "#dc2626"
+          "color": "#ED6E51",
+          "icon": "FP" 
         },
         "TYPES": [
           {
@@ -32,22 +33,133 @@
             "family": "Informática y comunicaciones"
           }
         ],
-        "STUDY_VALIDATION": {
-          "description": "Convalidaciones por estudios",
-          "url_help": "url_help",
-          "init_date": "2024-09-20",
-          "end_date": "2024-10-20",
-          "delivery": {
-            "DAM": "url_DAM",
-            "DAW": "url_DAW"
+        "PROCEDURES": [
+          {  
+            "type": "VALIDATION",
+            "info": {
+              "name": "Convalidaciones",
+              "description": "Solicitud de convalidaciones y exenciones",
+              "subtypes": [
+                { 
+                  "STUDY_VALIDATION": {
+                    "description": "Convalidaciones por estudios",
+                    "url_help": "url_help",
+                    "init_date": "2024-09-20",
+                    "end_date": "2024-10-20",
+                    "delivery": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    },
+                    "claim": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    }
+                  }      
+                }
+              ]
+            }
           },
-          "claim": {
-            "DAM": "url_DAM",
-            "DAW": "url_DAW"
+          {  
+            "type": "REGISTRATION",
+            "info": {
+              "name": "Matrícula",
+              "description": "Matrículas, anulaciones y renuncias",
+              "subtypes": [
+                { 
+                  "CANCELLATION01": {
+                    "description": "Anulación matricula módulos de primero",
+                    "url_help": "url_help",
+                    "init_date": "2024-10-12",
+                    "end_date": "2025-04-20",
+                    "delivery": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    },
+                    "claim": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    }
+                  }      
+                },
+                { 
+                  "CANCELLATION02": {
+                    "description": "Anulación matrícula módulos de segundo",
+                    "url_help": "url_help",
+                    "init_date": "2024-10-12",
+                    "end_date": "2025-01-07",
+                    "delivery": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    },
+                    "claim": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    }
+                  }      
+                },
+                { 
+                  "RESIGNATION_ORD_01": {
+                    "description": "Renuncia convocatoria ordinaria de módulos de primero",
+                    "url_help": "url_help",
+                    "init_date": "2024-10-12",
+                    "end_date": "2025-05-20",
+                    "delivery": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    },
+                    "claim": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    }
+                  }      
+                },
+                { 
+                  "RESIGNATION_EXT_01": {
+                    "description": "Renuncia convocatoria extraordinaria de módulos de primero",
+                    "url_help": "url_help",
+                    "init_date": "2024-10-12",
+                    "end_date": "2025-06-20",
+                    "delivery": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    },
+                    "claim": {
+                      "DAM": "url_DAM",
+                      "DAW": "url_DAW"
+                    }
+                  }      
+                }
+              ]
+            }
           }
-        } 
+        ]
+      }, 
+      {
+       "GENERAL_INFO": {
+          "name": "Bachillerato",
+          "abbr": "BACH",
+          "help": "Documentación Bachillerato",
+          "color": "#3AAE6C"
+        },
+        "TYPES": [
+          {
+            "abbr": "BC",
+            "name": "Bachillerato de ciencias",
+            "level": "",
+            "family": ""
+          }
+        ],
+        "PROCEDURES": [
+          {  
+            "type": "VALIDATION",
+            "info": {
+              "name": "Convalidaciones",
+              "description": "Solicitud de convalidaciones",
+              "subtypes": [
+              ]
+            }
+          }
+        ]
       }
-    ]
-
-
+   ] 
 } 
