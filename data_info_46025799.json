@@ -42,7 +42,7 @@
             },
             "subtypes": [
               { 
-                "STUDY_VALIDATION": {
+                "STUDIES_VALIDATION": {
                   "description": "Convalidaciones por estudios",
                   "info": "Solicitud para la anulación de matricula de módulos sueltos de primer curso. Solo es necesario el formulario correctamente cunmplimentado y firmado electrónicamente. ",
                   "url_video": "url_help",
